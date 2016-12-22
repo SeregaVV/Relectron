@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"electron ."
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,15 @@
   },
   "homepage": "https://github.com/SeregaVV/Relectron#readme",
   "devDependencies": {
-    "electron": "^1.4.13"
+    "babel": "^6.5.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "electron": "^1.4.13",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-app": "^1.1.2"
   }
 }
