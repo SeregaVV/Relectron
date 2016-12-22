@@ -11,6 +11,7 @@ app.on('ready',()=>{
     protocol:'file',
     slashes:true
   }));
+  
   mainWindow.webContents.openDevTools();
   mainWindow.on('closed',()=>{
       mainWindow = null;

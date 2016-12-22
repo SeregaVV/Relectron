@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "bundle":"webpack-dev-server"
   },
   "repository": {
     "type": "git",
